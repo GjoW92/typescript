@@ -1,0 +1,12 @@
+.button {
+  border-radius: 4px;
+  color: #343a40;
+  background-color: transparent;
+  background-image: none;
+  border-color: #343a40;
+}
+
+.button:hover{
+  background-color: #343a40;
+  color: whitesmoke;
+}

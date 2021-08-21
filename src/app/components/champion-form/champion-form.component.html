@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <h2>Add Champion</h2>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" #championName required [(ngModel)]="model.name"name="name"/>
+  </div>
+
+  <div class="form-group">
+    <label for="type">Champion Class</label>
+    <select class="form-control" #championType id="type" required [(ngModel)]="model.type" name="type">
+      <option *ngFor="let type of types" [value]="type">{{ type }}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="role">Lane</label>
+    <select class="form-control" #championRole id="role" required [(ngModel)]="model.role" name="role">
+      <option *ngFor="let role of roles" [value]="role">{{ role }}</option>
+    </select>
+  </div>
+
+  <button class="add-button" (click)=" add(championName.value, championType.value, championRole.value); championName.value = ''">
+    Add champion
+  </button>
+</div>

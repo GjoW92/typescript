@@ -1,0 +1,57 @@
+.champions {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 13em;
+}
+
+.champions li {
+  position: relative;
+  cursor: pointer;
+}
+
+.champions a {
+  color: #333;
+  text-decoration: none;
+  background-color: whitesmoke;
+  margin: .5em;
+  padding: .3em 0;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.champions a:hover {
+  color: whitesmoke;
+  background-color: #343a40;
+}
+
+.champions .badge {
+  position:relative;
+  font-size: small;
+  color: white;
+  background-color:#405061;
+  border-radius: 0;
+  left: -5px;
+}
+
+.btn.delete {
+  position: absolute;
+  left: 188px;
+  top: 1.5px;
+  padding: 1px 10px 3px 10px;
+  border-radius: 0;
+}
+
+button.delete {
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #dc3545;
+  color: whitesmoke;
+  
+}

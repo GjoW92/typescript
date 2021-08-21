@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <h2>My Champions</h2>
+
+  <ul class="champions">
+    <li *ngFor="let champion of champions">
+      <a routerLink="/champion/{{ champion.id }}">
+        <span class="badge">{{ champion.id }}</span> {{ champion.name }}
+      </a>
+      <button class="btn btn-danger delete" title="delete champion" (click)="delete(champion)">
+        x
+      </button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+/* Header */
+app-header {
+  height: 68px;
+  background-color: #1976d2;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-header h1 {
+  color: white;
+  margin: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #444;
+  font-weight: lighter;
+}

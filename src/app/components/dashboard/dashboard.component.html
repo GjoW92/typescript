@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <h2>Best Champions</h2>
+  <div class="champions-menu">
+    <a *ngFor="let champion of champions" routerLink="/champion/{{ champion.id }}">
+      {{ champion.name }}
+    </a>
+  </div>
+</div>
+
+<app-champion-search></app-champion-search>

@@ -1,0 +1,28 @@
+.btn-primary {
+  color: #28a745;
+  background-color: transparent;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  color: whitesmoke;
+  background-color: #28a745;
+}
+
+.btn-secondary {
+  color: #343a40;
+  background-color: transparent;
+  background-image: none;
+  border-color: #343a40;
+}
+
+.btn-secondary:hover {
+  background-color: #343a40;
+  color: whitesmoke;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
